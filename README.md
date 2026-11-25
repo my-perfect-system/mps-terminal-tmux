@@ -16,7 +16,7 @@ tmux and tmuxinator configuration of the my-perfect-system (mps) terminal stack.
 curl -fsSL https://raw.githubusercontent.com/my-perfect-system/mps-terminal-tmux/main/bootstrap.sh | bash
 ```
 
-All methods deploy `config/tmux` and `config/tmuxinator` to the current user's `~/.config`; one clone per host (`${MPS_REPO_DIR:-/srv/repo/github/my-perfect-system}`), shared by all users.
+All methods deploy `config/tmux` and `config/tmuxinator` to the current user's `~/.config`; one clone per host (`${MPS_REPO_DIR:-/srv/repo/github/my-perfect-system/mps}`), shared by all users.
 
 ## Usage
 
